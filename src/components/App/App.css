@@ -1,0 +1,41 @@
+:root{
+  --clr-sand: #f7e4cb;
+  --clr-softBlack: #0A121A;
+  --clr-olive:#4E6659;
+  --clr-white:#FFFFFF;
+  --clr-coral: #FF5E6F;
+  --clr-red: #EC4923;
+  --clr-darkTurquoise: #4682B4;
+  --clr-navyBlue: #359697;
+  --clr-softYellow: #debd6c;
+  --clr-purple: #945dc4;
+  --clr-lightBlue: #00BFFF;
+  --clr-green: #608a00;
+  --clr-limeGreen: #52884f;
+  --clr-grey: #85949c;
+  --clr-lightGreen: #649c74;
+  --clr-blue: #54a4b4;
+  --clr-lightPurple: #9174a9;
+  --clr-gold: #dca454;
+  --ff-primary-body: Arial, Helvetica, sans-serif;
+  --ff-smartpointCloud-font: atls-default, sans-serif;
+  --ff-primary-headline: 'Impact', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  /* font-family: 'genshin_impact_font'; */
+}
+
+/* @font-face {
+  font-family: 'genshin_impact_font';
+  src: url('../../resources/fonts/genshin_impact_font.ttf');
+} */
+
+/* body{
+  background-image: url('../../resources/images/TravelGenshin_Background.png');
+  background-attachment: fixed;
+  background-size: 100%;
+} */
