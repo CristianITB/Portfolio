@@ -1,11 +1,11 @@
 import styled from '@emotion/styled'
 import { withTheme } from '../../styles/styles.helper'
 
-export const Frame = styled.div`
+export const HeaderContainer = styled.div`
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
+  margin-top: 3%;
 `
 
 export const ProfilePicture = styled.img`
@@ -17,7 +17,7 @@ export const ProfilePicture = styled.img`
   transition: transform 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
   }
 `
 
@@ -26,14 +26,15 @@ export const HeaderInfo = styled.div`
 `
 
 export const UnorderedList = styled.ul`
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    ${withTheme('margin', 'sizes.vw2')}
-    ${withTheme('font-size', 'sizes.vw2')};
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4%;
+  ${withTheme('font-size', 'sizes.vw15')};
 `
 
 export const LiElement = styled.li`
-    cursor: pointer;
+  cursor: pointer;
+  padding: 0 3%;
 `

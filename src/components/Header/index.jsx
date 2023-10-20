@@ -1,4 +1,4 @@
-import { Frame, ProfilePicture, HeaderInfo, UnorderedList, LiElement } from './styles'
+import { HeaderContainer, ProfilePicture, HeaderInfo, UnorderedList, LiElement } from './styles'
 
 export const Header = (props) => {
 
@@ -11,12 +11,14 @@ export const Header = (props) => {
     }
   
     return (
-        <Frame>
-          <ProfilePicture src={process.env.PUBLIC_URL + '/portfolio_profile_picture.jpg'} alt="That's my face" />
-          <HeaderInfo>
-            <h1>Cristian Jiménez Gascueña, {finalAge}</h1>
-            <p>Software Developer</p>
-          </HeaderInfo>
+        <div>
+          <HeaderContainer>
+            <ProfilePicture src={process.env.PUBLIC_URL + '/portfolio_profile_picture.jpg'} alt="That's my face" />
+            <HeaderInfo>
+              <h1>Cristian Jiménez Gascueña, {finalAge}</h1>
+              <p>Software Developer</p>
+            </HeaderInfo>
+          </HeaderContainer>
           <nav>
             <UnorderedList>
               <LiElement onClick={handleClick}>About me</LiElement>
@@ -24,7 +26,7 @@ export const Header = (props) => {
               <LiElement onClick={handleClick}>Android Development</LiElement>
             </UnorderedList>
           </nav>
-        </Frame>
+        </div>
     )
   }
   

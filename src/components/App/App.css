@@ -39,3 +39,8 @@
   background-attachment: fixed;
   background-size: 100%;
 } */
+
+body{
+  margin-left: 5%;
+  margin-right: 5%;
+}
