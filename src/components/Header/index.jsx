@@ -10,6 +10,8 @@ export const Header = (props) => {
       props.onMenuClick(event.target.innerText)
     }
   
+    const cvUrl = 'Currículum.pdf';
+
     return (
         <div>
           <HeaderContainer>
@@ -26,7 +28,9 @@ export const Header = (props) => {
               <LiElement onClick={handleClick}>Android Development</LiElement>
             </UnorderedList>
           </HeaderNav>
-          <DownloadCVButton>Download CV!</DownloadCVButton>
+          <a href={cvUrl} download="Currículum.pdf">
+            <DownloadCVButton>Download CV!</DownloadCVButton>
+          </a>
         </div>
     )
   }
