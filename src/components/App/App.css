@@ -43,4 +43,8 @@
 body{
   margin-left: 5%;
   margin-right: 5%;
+  background-image: url('../../../public/background.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  color: #BFA181; /*#37b0ac*/
 }
