@@ -18,3 +18,38 @@ export const TechnicalExpertiseTitle = styled.p`
   font-weight: bold;
   font-size: 1.3vw;
 `
+
+export const TechStackTitle = styled.p`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+  font-size: 1.5vw;
+  font-weight: bold;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 20%; /* Adjust this value as needed */
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: #BFA181;
+    bottom: 0;
+    left: 40%; /* Adjust this value to center the underline */
+  }
+`
+
+export const TechStack = styled.div`
+  border: 2px solid #BFA181;
+  background-color: rgba(191, 161, 129, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  margin: 3%;
+  padding: 1%;
+`
+
+export const SVGIcon = styled.svg`
+  margin: 0 2%;
+`

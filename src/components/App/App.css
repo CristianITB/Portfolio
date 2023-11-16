@@ -48,3 +48,16 @@ body{
   background-size: 100%;
   color: #BFA181; /*#37b0ac*/
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ab845a;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #BFA181;
+}
