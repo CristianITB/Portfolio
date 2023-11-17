@@ -4,6 +4,8 @@ import Header from '../Header'
 import AboutMe from '../AboutMe'
 import WebDevelopment from '../WebDevelopment'
 import AndroidDevelopment from '../AndroidDevelopment'
+import SideLinks from '../SideLinks'
+import SideMail from '../SideMail'
 
 export const MainDisplayer = () => {
   const [selectedMenuOption, setSelectedMenuOption] = useState('')
@@ -31,6 +33,8 @@ export const MainDisplayer = () => {
     <div>
       <Header onMenuClick={handleMenuClick} />
       {ComponentToRender}
+      <SideLinks />
+      <SideMail />
     </div>
   )
 }

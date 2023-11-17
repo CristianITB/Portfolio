@@ -50,6 +50,6 @@ export const TechStack = styled.div`
   padding: 1%;
 `
 
-export const SVGIcon = styled.svg`
+export const SVGIcon = styled.div`
   margin: 0 2%;
 `

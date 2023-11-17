@@ -19,7 +19,8 @@ export const ProjectIcons = styled.div`
 `;
 
 export const ProjectImage = styled.img`
-  max-width: 100%;
+  max-width: 300px;
+  max-height: 168.75px;
   height: auto;
   margin-top: 8px;
 `;
