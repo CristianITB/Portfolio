@@ -1,6 +1,20 @@
-import { ProjectContainer, ProjectTitle, ProjectIcons, ProjectImage, ProjectDescription, ProjectTags } from './style'
+import { ProjectContainer, ProjectTitle, ProjectIcons, ProjectImage, ProjectDescription, ProjectTags, HTMLTag, CSSTag, JavaScriptTag, ReactTag, StyledComponentsTag, TestingTag, DefaultTag } from './style'
 import GitHubIcon from '../../SVGicons/GitHub';
 import GoToWebsite from '../../SVGicons/GoToWebsite';
+
+const tagMappings = {
+  HTML: HTMLTag,
+  CSS: CSSTag,
+  JavaScript: JavaScriptTag,
+  React: ReactTag,
+  'Styled Components': StyledComponentsTag,
+  Testing: TestingTag,
+};
+
+const getTagComponent = (tag, index) => {
+  const TagComponent = tagMappings[tag] || DefaultTag;
+  return <TagComponent key={index}>{tag}</TagComponent>;
+};
 
 export const Project = ({ title, githubLink, websiteLink, imageSrc, description, tags }) => {
     return (
@@ -18,11 +32,7 @@ export const Project = ({ title, githubLink, websiteLink, imageSrc, description,
         </ProjectTitle>
         <ProjectImage src={imageSrc} alt={title} />
         <ProjectDescription>{description}</ProjectDescription>
-        <ProjectTags>
-          {tags.map((tag, index) => ( 
-            <div key={index}>{tag}</div>
-          ))}
-        </ProjectTags>
+        <ProjectTags>{tags.map((tag, index) => getTagComponent(tag, index))}</ProjectTags>
       </ProjectContainer>
     );
   };
