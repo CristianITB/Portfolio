@@ -52,4 +52,8 @@ export const TechStack = styled.div`
 
 export const SVGIcon = styled.div`
   margin: 0 2%;
+  svg {
+    width: 100%; /* Make the SVG element take 100% of the parent div's width */
+    height: auto; /* Maintain aspect ratio */
+  }
 `
