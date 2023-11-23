@@ -1,7 +1,69 @@
+import ProjectComponent from '../ProjectComponent'
+import { ProjectsFrame, ProjectsIntro, ProjectsContainer, ProjectWrapper } from '../WebDevelopment/style'
+
 export const AndroidDevelopment = () => {
     return (
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, magnam. Labore ab nisi deserunt ipsam quidem numquam voluptas vitae alias, error nam a eum iusto dicta, deleniti libero quo eius, voluptatibus obcaecati hic autem? Modi officiis ad reprehenderit rerum sed vitae eligendi tempore at voluptates! Ipsam quis eius expedita! Magnam, perferendis quia? Quis maiores reprehenderit nobis totam tempore, sed provident, placeat dolorem suscipit voluptates sit atque odio aspernatur? Sint rem ut cumque expedita. Cumque qui numquam voluptate facere! Laudantium consequuntur mollitia vel! Nam impedit exercitationem adipisci ut, itaque cum alias obcaecati aliquam nulla sint eveniet facere ipsam odio error ab explicabo. Maxime odit porro obcaecati eos suscipit aperiam fugit architecto consequuntur, accusantium cupiditate ullam itaque nihil neque mollitia iusto nobis, nulla minus maiores tempore! Sunt obcaecati quas animi, reprehenderit quo ratione rem tempora incidunt quidem dolore sequi, quod facere libero minima iusto qui porro eaque ea neque voluptatum voluptates fuga nulla tenetur nesciunt? Cupiditate adipisci quisquam, mollitia iste deserunt commodi a libero in repellat laborum eligendi rerum error! Nam rem laborum, vitae ipsum tempore aperiam exercitationem esse? Quasi quia corrupti est odit dolore magni fugiat dignissimos ipsa eligendi cupiditate soluta impedit, natus, omnis nisi, esse laudantium illum doloremque qui provident quos? Temporibus eius ratione nobis dolore eaque dolorem quam quibusdam distinctio hic. Necessitatibus at porro iure odio dolores fugit enim corporis distinctio, soluta nostrum assumenda nisi repudiandae itaque nam deleniti. Ducimus delectus voluptatibus magni veniam, asperiores tenetur commodi earum obcaecati quaerat minima hic nulla modi fugit deleniti ullam libero molestias, fugiat cum architecto enim? Nobis pariatur voluptatem hic id laborum dolor, placeat eaque nostrum non. Vitae quasi totam reiciendis officiis dicta. Nemo fugit officia expedita totam nulla voluptatibus asperiores repellendus repudiandae rem magni. Optio recusandae corrupti ad explicabo illo et laudantium, enim deleniti voluptatum atque fugit, aperiam commodi delectus sapiente facere suscipit quae necessitatibus iusto asperiores molestiae rerum ullam? Consequatur, ullam doloremque aliquid optio fugiat quisquam sed velit excepturi sit! Quibusdam perferendis nam perspiciatis illo totam odio cupiditate sunt veniam libero, delectus maiores, rerum unde. Veritatis asperiores autem ut, similique natus perspiciatis iusto deserunt laudantium temporibus iste, incidunt non! Accusamus, tempora asperiores, maiores, delectus blanditiis iure ratione beatae necessitatibus dolor suscipit nesciunt alias! Nesciunt dignissimos ullam non reprehenderit quia. Hic quia vero perspiciatis, nesciunt cumque consectetur inventore quod! Non, dolorem voluptas necessitatibus odio sit autem eum dolores commodi ipsam quia dolor iusto cupiditate obcaecati culpa laboriosam quos et quo, esse at reiciendis laudantium. Libero, placeat. Necessitatibus quis cum aliquam illum corporis. Ipsum unde placeat temporibus, nostrum minima, ratione culpa inventore cumque sint labore adipisci incidunt officia facilis vero consequatur ducimus nobis doloribus eaque. Dolor recusandae eligendi nostrum amet voluptatum blanditiis cupiditate reiciendis sunt laborum, eius nulla esse. Ducimus, fugiat. Accusantium aperiam, quam odit at amet obcaecati, laudantium possimus earum quas libero eum! Suscipit quasi quo quisquam. Eos nisi asperiores totam eius necessitatibus facere perferendis aut labore accusamus sint deleniti fuga non, amet praesentium provident doloremque ullam ipsam quis sequi libero possimus! Ex illo at laboriosam neque dignissimos minima similique magnam, nobis temporibus id labore illum eveniet aut sunt porro animi ut beatae optio dolores quibusdam quos veniam ad. Reiciendis, suscipit? Dicta, laudantium doloribus iure, aliquam consectetur perferendis sint, natus ipsam possimus sed suscipit sunt! Ratione cumque accusamus quod repudiandae sed ipsa nemo obcaecati? Soluta facere aspernatur ipsum est autem labore fugit cum nihil sed! Commodi ratione, ad voluptas dolor est sint esse repellat iusto a nobis vel quam fugiat perspiciatis! Architecto eos odio natus reprehenderit dolorem alias maxime, modi, eum quo sapiente dolorum soluta quibusdam quas cum voluptates odit provident similique, beatae dicta perferendis impedit veniam dolores? Debitis porro non dicta illum voluptatibus repudiandae veritatis aspernatur voluptates, eveniet, accusantium tenetur! Laborum itaque perferendis eligendi impedit incidunt earum sapiente dolore voluptas doloremque alias expedita deleniti doloribus, molestias, dolorum maxime quaerat explicabo eius quos quia esse quisquam laboriosam? Similique repudiandae quasi earum obcaecati dolores modi aspernatur omnis nemo porro molestiae temporibus, sed consequuntur quisquam! Aut molestias, optio quos nam rerum esse itaque sint? Deleniti quos numquam iusto, in suscipit, unde fugiat quo, cupiditate minus eius tenetur iure temporibus qui earum beatae. Corrupti voluptas consectetur, optio repudiandae repellendus, autem quos consequatur provident reprehenderit natus molestias temporibus voluptatum omnis accusamus, asperiores ipsum culpa delectus totam ipsa repellat dolore. Sequi excepturi aliquam dolores ratione odit cum vero quasi omnis mollitia libero facilis laborum quibusdam, tempore ipsam dignissimos quae unde! Nulla ipsum ex ea magni reiciendis rerum modi perferendis corporis? A odio eveniet inventore odit laudantium nisi in fugit repellat cum sequi nemo reprehenderit, aliquid corporis, excepturi libero facilis ex quia? Magni eligendi animi vel nostrum quo recusandae fuga repellendus illum impedit illo, accusamus omnis, iusto officia facilis voluptas laboriosam porro totam eum! Ex vero quo quisquam explicabo voluptatibus voluptate. Optio illo quos nemo delectus, molestiae laborum sit? Et labore quam eum ea magnam ratione voluptas sapiente cum quibusdam dolorem eius consequuntur rem, excepturi ducimus error illo qui distinctio reiciendis consequatur quasi quidem eligendi quaerat! Iure autem dicta maiores saepe fuga repellendus quas nobis excepturi magni reprehenderit nisi incidunt, ducimus rem iste pariatur molestiae eos? Similique illo totam, explicabo odit enim non blanditiis, ipsa aut necessitatibus veniam vitae eveniet cumque, esse molestiae quae culpa atque nobis dolore? Dolore, cupiditate, possimus quasi doloremque nobis unde ullam ut ipsum, iste nostrum excepturi explicabo sequi laborum labore tenetur libero quisquam repellat qui. Possimus molestias culpa vero voluptatum debitis facilis ipsa sed iusto natus molestiae reprehenderit eligendi illum quod sit eius corrupti accusamus praesentium quas aliquid et excepturi, ad saepe quisquam soluta. Dolor id quasi illo quia eaque laboriosam harum nemo cum pariatur doloribus tempora voluptatem eius inventore, provident, nihil fuga obcaecati modi reiciendis non amet ad dicta maiores! Minus dicta exercitationem illum. Praesentium ea veritatis, molestiae dolor aspernatur quibusdam non accusamus ab eligendi voluptatibus? Numquam harum, alias suscipit et laudantium, atque mollitia cum assumenda odio necessitatibus aut eos voluptate repellendus. Quam vero fugiat impedit ab hic ea tempora vitae reiciendis obcaecati voluptate eos corporis non dolore quos cum illo doloribus rem molestias soluta, repudiandae laudantium. Reiciendis corrupti quas porro?</p>
-    )
+        <ProjectsFrame>
+          <ProjectsIntro>Explore a showcase of my Android Development Projects:</ProjectsIntro>
+          <ProjectsContainer>
+              <ProjectWrapper>
+                <ProjectComponent 
+                  title={"Minesweeper"} 
+                  gitLink={"https://github.com/CristianITB/Minesweeper_Travelport"} 
+                  websiteLink={"https://cristianitb.github.io/Minesweeper_Travelport/"} 
+                  imageSrc={process.env.PUBLIC_URL + '/minesweeper.png'} 
+                  description={"Traditional Minesweeper game developed using fundamental web programming and featuring rigorous testing. Feel free to play!"} 
+                  tags={["HTML", "CSS", "JavaScript", "Testing"]} />
+              </ProjectWrapper>
+              <ProjectWrapper>
+                <ProjectComponent 
+                  title={"Calculator"} 
+                  gitLink={"https://github.com/CristianITB/Calculator_Travelport"} 
+                  websiteLink={"https://cristianitb.github.io/Calculator_Travelport/"} 
+                  imageSrc={process.env.PUBLIC_URL + '/calculator.png'} 
+                  description={"Basic Calculator without relying on the 'eval' function, ensuring simplicity and robustness through rigorous testing. Always keep one in hand!"} 
+                  tags={["HTML", "CSS", "JavaScript", "Testing"]} />
+              </ProjectWrapper>
+              <ProjectWrapper>
+                <ProjectComponent 
+                  title={"Genshin Impact Wiki"} 
+                  gitLink={"https://github.com/CristianITB/TravelGenshin"} 
+                  websiteLink={"https://travel-genshin.vercel.app/"} 
+                  imageSrc={process.env.PUBLIC_URL + '/genshin_wiki.png'} 
+                  description={"React application for Genshin Impact enthusiast, serving as an intuitive wiki for players. Explore characters, weapons, and more in this immersive gaming experience!"} 
+                  tags={["React", "Styled Components", "JavaScript"]} />
+              </ProjectWrapper>
+              <ProjectWrapper>
+                <ProjectComponent 
+                  title={"Recipes"} 
+                  gitLink={"https://github.com/CristianITB/Recetas_Cristian"} 
+                  websiteLink={"https://cristianitb.github.io/Recetas_Cristian/"} 
+                  imageSrc={process.env.PUBLIC_URL + '/recipes.png'} 
+                  description={"One of my first 'big' projects on fundamental web programming! Don't forget to check it if you feel hungry!"} 
+                  tags={["HTML", "CSS", "JavaScript"]} />
+              </ProjectWrapper>
+              <ProjectWrapper>
+                <ProjectComponent 
+                  title={"Secret Code Game"} 
+                  gitLink={"https://github.com/CristianITB/SecretCode_JavaScript"} 
+                  websiteLink={"https://cristianitb.github.io/SecretCode_JavaScript/"} 
+                  imageSrc={process.env.PUBLIC_URL + '/secret_code.png'} 
+                  description={"Very simple 'Secret Code' game done in my early days as a software developer, exploring the fundamentals of coding and logic! Will you guess the code?"} 
+                  tags={["HTML", "CSS", "JavaScript"]} />
+              </ProjectWrapper>
+              <ProjectWrapper>
+                <ProjectComponent 
+                  title={"CSS tryouts"} 
+                  gitLink={"https://github.com/CristianITB/PruebasCSS"} 
+                  websiteLink={"https://cristianitb.github.io/PruebasCSS/"} 
+                  imageSrc={process.env.PUBLIC_URL + '/css_tryouts.png'} 
+                  description={"Exploring the creative possibilities of CSS beyond conventional web page styling through experimentation and testing."} 
+                  tags={["HTML", "CSS"]} />
+              </ProjectWrapper>
+          </ProjectsContainer>
+    
+        </ProjectsFrame>
+      )
 }
 
 export default AndroidDevelopment

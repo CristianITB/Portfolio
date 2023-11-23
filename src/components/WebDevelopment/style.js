@@ -1,11 +1,11 @@
 import styled from '@emotion/styled'
 
-export const WebDevelopmentContainer = styled.div`
+export const ProjectsFrame = styled.div`
   max-width: 85%;
   margin: 0 auto;
 `
 
-export const WebDevelopmentIntro = styled.div`
+export const ProjectsIntro = styled.div`
   font-size: 1vw;
 `
 

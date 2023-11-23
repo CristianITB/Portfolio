@@ -16,13 +16,13 @@ const getTagComponent = (tag, index) => {
   return <TagComponent key={index}>{tag}</TagComponent>;
 };
 
-export const Project = ({ title, githubLink, websiteLink, imageSrc, description, tags }) => {
+export const Project = ({ title, gitLink, websiteLink, imageSrc, description, tags }) => {
     return (
       <ProjectContainer>
         <ProjectTitle>
           {title}
           <ProjectIcons>
-            <a href={githubLink} target='_blank' rel='noreferrer'>
+            <a href={gitLink} target='_blank' rel='noreferrer'>
               <GitHubIcon width={40} height={40} />
             </a>
             <a href={websiteLink} target="_blank" rel="noreferrer">
