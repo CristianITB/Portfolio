@@ -22,7 +22,7 @@ export const MainDisplayer = () => {
     case 'Web Development':
       ComponentToRender = <WebDevelopment />
       break
-    case 'Android Development':
+    case 'Android/Kotlin Development':
       ComponentToRender = <AndroidDevelopment />
       break
     default:

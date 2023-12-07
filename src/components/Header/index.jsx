@@ -34,7 +34,7 @@ export const Header = (props) => {
         <UnorderedList>
           <LiElement onClick={handleClick} className={selectedOption === 'About me' ? 'active' : ''}>About me</LiElement>
           <LiElement onClick={handleClick} className={selectedOption === 'Web Development' ? 'active' : ''}>Web Development</LiElement>
-          <LiElement onClick={handleClick} className={selectedOption === 'Android Development' ? 'active' : ''}>Android Development</LiElement>
+          <LiElement onClick={handleClick} className={selectedOption === 'Android Development' ? 'active' : ''}>Android/Kotlin Development</LiElement>
         </UnorderedList>
       </HeaderNav>
       <a href={cvUrl} download="Currículum.pdf">
