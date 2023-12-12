@@ -31,7 +31,27 @@ export const StyledComponentsTag = styled(ProjectTags)`
   color: #000;
 `;
 
+export const AndroidStudioTag = styled(ReactTag)``;
+
+export const KotlinTag = styled(HTMLTag)``;
+
+export const ApiTag = styled(ProjectTags)`
+  background-color: #7547ca;
+  color: #000;
+`;
+
+export const MongoDBTag = styled(ProjectTags)`
+  background-color: #237623;
+  color: #000;
+`;
+
+export const JetPackComposeTag = styled(CSSTag)``;
+
+export const MediaPlayerTag = styled(TestingTag)``;
+
+
 export const DefaultTag = styled(ProjectTags)`
   background-color: #fff;
   color: #000;
 `;
+

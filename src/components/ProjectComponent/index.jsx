@@ -1,5 +1,5 @@
 import { ProjectContainer, ProjectTitle, ProjectIcons, ProjectImage, ProjectDescription, ProjectTags } from './style'
-import { HTMLTag, CSSTag, JavaScriptTag, ReactTag, StyledComponentsTag, TestingTag, DefaultTag } from './ProjectTagsStyle'
+import { HTMLTag, CSSTag, JavaScriptTag, ReactTag, StyledComponentsTag, TestingTag, DefaultTag, AndroidStudioTag, KotlinTag, ApiTag, MongoDBTag, JetPackComposeTag, MediaPlayerTag } from './ProjectTagsStyle'
 import GitHubIcon from '../../SVGicons/GitHub';
 import GitLab from '../../SVGicons/GitLab';
 import GoToWebsite from '../../SVGicons/GoToWebsite';
@@ -11,6 +11,12 @@ const tagMappings = {
   React: ReactTag,
   'Styled Components': StyledComponentsTag,
   Testing: TestingTag,
+  'Android Studio': AndroidStudioTag,
+  Kotlin: KotlinTag,
+  API: ApiTag,
+  MongoDB: MongoDBTag,
+  'JetPack Compose': JetPackComposeTag,
+  'Media Player': MediaPlayerTag,
 };
 
 const getTagComponent = (tag, index) => {
