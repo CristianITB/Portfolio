@@ -4,6 +4,7 @@ import { withTheme } from '../../styles/styles.helper'
 export const AboutMeContainer = styled.div`
   max-width: 85%;
   margin: 0 auto;
+  cursor: default;
 `;
 
 export const AboutMeParagraph = styled.p`

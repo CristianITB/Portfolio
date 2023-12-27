@@ -6,6 +6,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 3%;
+  cursor: default;
 `
 
 export const ProfilePicture = styled.img`
