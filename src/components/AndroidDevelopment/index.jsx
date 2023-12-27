@@ -55,7 +55,6 @@ export const AndroidDevelopment = () => {
                   tags={["Android Studio", "Kotlin"]} />
               </ProjectWrapper>
           </ProjectsContainer>
-    
         </ProjectsFrame>
       )
 }

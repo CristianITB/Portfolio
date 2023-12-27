@@ -61,7 +61,6 @@ export const WebDevelopment = () => {
               tags={["HTML", "CSS"]} />
           </ProjectWrapper>
       </ProjectsContainer>
-
     </ProjectsFrame>
   )
 }

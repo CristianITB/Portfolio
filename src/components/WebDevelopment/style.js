@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import { withTheme } from '../../styles/styles.helper'
 
 export const ProjectsFrame = styled.div`
   max-width: 85%;
@@ -6,7 +7,7 @@ export const ProjectsFrame = styled.div`
 `
 
 export const ProjectsIntro = styled.div`
-  font-size: 1vw;
+  ${withTheme('font-size', 'sizes.vw1')};
 `
 
 export const ProjectsContainer = styled.div`

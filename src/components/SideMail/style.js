@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { withTheme } from '../../styles/styles.helper'
 
 export const SideMailContainer = styled.div`
   position: fixed;
@@ -23,9 +24,9 @@ export const SideMailDiv = styled.div`
 `
 
 export const AnchorElement = styled.a`
+  ${withTheme('color', 'colors.goldText')};
+  ${withTheme('font-size', 'sizes.vw1')};
   text-decoration: none;
-  color: #BFA181;
-  font-size: 1vw;
   transition: transform 0.5s;
   writing-mode: vertical-rl;
   letter-spacing: 3px;

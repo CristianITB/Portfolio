@@ -1,34 +1,35 @@
 import styled from '@emotion/styled';
 import { ProjectTags } from './style'
+import { withTheme } from '../../styles/styles.helper'
 
 export const HTMLTag = styled(ProjectTags)`
-  background-color: #3498db;
-  color: #000;
+  ${withTheme('background-color', 'colors.lightBlue')};
+  ${withTheme('color', 'colors.black')};
 `;
 
 export const CSSTag = styled(ProjectTags)`
-  background-color: #e67e22;
-  color: #000;
+  ${withTheme('background-color', 'colors.orange')};
+  ${withTheme('color', 'colors.black')};
 `;
 
 export const JavaScriptTag = styled(ProjectTags)`
-  background-color: #f1c40f;
-  color: #000;
+  ${withTheme('background-color', 'colors.yellow')};
+  ${withTheme('color', 'colors.black')};
 `;
 
 export const ReactTag = styled(ProjectTags)`
-  background-color: #61db61;
-  color: #000;
+  ${withTheme('background-color', 'colors.green')};
+  ${withTheme('color', 'colors.black')};
 `;
 
 export const TestingTag = styled(ProjectTags)`
-  background-color: #cf3434;
-  color: #000;
+  ${withTheme('background-color', 'colors.red')};
+  ${withTheme('color', 'colors.black')};
 `;
 
 export const StyledComponentsTag = styled(ProjectTags)`
-  background-color: #c96f21;
-  color: #000;
+  ${withTheme('background-color', 'colors.darkerOrange')};
+  ${withTheme('color', 'colors.black')};
 `;
 
 export const AndroidStudioTag = styled(ReactTag)``;
@@ -36,13 +37,13 @@ export const AndroidStudioTag = styled(ReactTag)``;
 export const KotlinTag = styled(HTMLTag)``;
 
 export const ApiTag = styled(ProjectTags)`
-  background-color: #7547ca;
-  color: #000;
+  ${withTheme('background-color', 'colors.purple')};
+  ${withTheme('color', 'colors.black')};
 `;
 
 export const MongoDBTag = styled(ProjectTags)`
-  background-color: #237623;
-  color: #000;
+  ${withTheme('background-color', 'colors.darkerGreen')};
+  ${withTheme('color', 'colors.black')};
 `;
 
 export const JetPackComposeTag = styled(CSSTag)``;
@@ -51,7 +52,7 @@ export const MediaPlayerTag = styled(TestingTag)``;
 
 
 export const DefaultTag = styled(ProjectTags)`
-  background-color: #fff;
-  color: #000;
+  ${withTheme('color', 'colors.white')};
+  ${withTheme('color', 'colors.black')};
 `;
 

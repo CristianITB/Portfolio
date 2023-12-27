@@ -26,21 +26,21 @@ export const HeaderInfo = styled.div`
 `
 
 export const Name = styled.p`
-  font-size: 2.5vw;
+  ${withTheme('font-size', 'sizes.vw25')}
 `
 
 export const Profession = styled.p`
-  font-size: 1.7vw;
+  ${withTheme('font-size', 'sizes.vw17')}
   margin-top: 15px;
 `
 
 export const UnorderedList = styled.ul`
+  ${withTheme('font-size', 'sizes.vw18')}
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 2%;
-  font-size: 1.8vw;
   border-bottom: solid 2px #BFA181;
   padding: 1%; 
 `
@@ -61,20 +61,20 @@ export const HeaderNav = styled.nav`
 `
 
 export const DownloadCVButton = styled.button`
+  ${withTheme('font-size', 'sizes.vw07')};
+  ${withTheme('color', 'colors.black')}
+  background: linear-gradient(45deg, #BFA181, #37b0ac);
   position: absolute;
   top: 3%;
   right: 2%;
-  padding: 12px 18px; /* Increased padding for a slightly bigger button */
-  background: linear-gradient(45deg, #BFA181, #37b0ac);
-  color: #fff;
+  padding: 12px 18px;
   border: none;
-  border-radius: 8px; /* Increased border radius for a rounded look */
+  border-radius: 8px;
   cursor: pointer;
-  font-size: ${withTheme('font-size', 'sizes.vw2')};
-  transition: transform 0.3s ease-in-out; /* Change transition to transform */
+  transition: transform 0.3s ease-in-out;
 
   &:hover {
     background: linear-gradient(45deg, #9f8769, #2f8f89);
-    transform: scale(1.1); /* Scale up by 10% on hover */
+    transform: scale(1.1);
   }
 `

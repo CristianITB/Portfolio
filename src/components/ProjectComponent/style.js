@@ -12,11 +12,11 @@ export const ProjectContainer = styled.div`
 `;
 
 export const ProjectTitle = styled.p`
+  ${withTheme('font-size', 'sizes.vw13')};
+  ${withTheme('font-weight', 'fontWeight.bold')};
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.3vw;
-  font-weight: bold;
   margin-bottom: 5%;
 `;
 
@@ -38,11 +38,11 @@ export const ProjectDescription = styled.p`
 `;
 
 export const ProjectTags = styled.div`
+  ${withTheme('font-size', 'sizes.vw07')};
+  ${withTheme('font-weight', 'fontWeight.bold')};
   display: flex;
   margin-top: 3%;
   padding: 4px 8px;
   border-radius: 15px;
-  font-size: 0.9em;
-  font-weight: bold;
   gap: 8px;
 `;

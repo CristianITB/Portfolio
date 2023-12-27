@@ -4,44 +4,45 @@ import { withTheme } from '../../styles/styles.helper'
 export const AboutMeContainer = styled.div`
   max-width: 85%;
   margin: 0 auto;
-  padding: ${withTheme('padding', 'sizes.vw5')};
 `;
 
 export const AboutMeParagraph = styled.p`
-  font-size: 1vw;
+  ${withTheme('font-size', 'sizes.vw1')}
   line-height: 1.8;
   text-align: justify;
 `;
 
 export const TechnicalExpertiseTitle = styled.p`
+  ${withTheme('font-weight', 'fontWeight.bold')}
+  ${withTheme('font-size', 'sizes.vw13')}
   margin-top: 3%;
-  font-weight: bold;
-  font-size: 1.3vw;
+}
 `
 
 export const TechStackTitle = styled.p`
+  ${withTheme('font-size', 'sizes.vw15')}
+  ${withTheme('font-weight', 'fontWeight.bold')}
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 4%;
-  font-size: 1.5vw;
-  font-weight: bold;
   position: relative;
+
 
   &:after {
     content: "";
     position: absolute;
-    width: 20%; /* Adjust this value as needed */
-    height: 2px; /* Adjust the thickness of the underline */
+    width: 20%;
+    height: 2px;
     background-color: #BFA181;
     bottom: 0;
-    left: 40%; /* Adjust this value to center the underline */
+    left: 40%;
   }
 `
 
 export const TechStack = styled.div`
+${withTheme('background-color', 'colors.softGoldBackground')}
   border: 2px solid #BFA181;
-  background-color: rgba(191, 161, 129, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +54,7 @@ export const TechStack = styled.div`
 export const SVGIcon = styled.div`
   margin: 0 2%;
   svg {
-    width: 100%; /* Make the SVG element take 100% of the parent div's width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
   }
 `
