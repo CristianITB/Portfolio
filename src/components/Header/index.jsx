@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { HeaderContainer, ProfilePicture, HeaderInfo, Name, Profession, HeaderNav, UnorderedList, LiElement, DownloadCVButton } from './style';
+import DownloadOptionsBox from '../DownloadOptionsBox';
 
 export const Header = (props) => {
 
@@ -7,19 +8,56 @@ export const Header = (props) => {
   const today = new Date()
   const finalAge = calculateAge(birthDate, today);
 
-  const [selectedOption, setSelectedOption] = useState('About me');
+  /*--------- Handles sections clicks ----------*/
+  const [selectedSectionOption, setSelectedSectionOption] = useState('About me');
 
-  const handleClick = (event) => {
+  const handleSectionClick = (event) => {
     const selectedOption = event.target.innerText;
-    setSelectedOption(selectedOption);
+    setSelectedSectionOption(selectedOption);
     props.onMenuClick(selectedOption);
   }
 
   useEffect(() => {
-    props.onMenuClick(selectedOption);
-  }, [selectedOption, props]);
+    props.onMenuClick(selectedSectionOption);
+  }, [selectedSectionOption, props]);
+  /*--------------------------------------------*/
 
-  const cvUrl = 'Currículum.pdf';
+
+  /*-------- Handles download CV clicks --------*/
+  const [showDownloadOptions, setShowDownloadOptions] = useState(false);
+
+  const openDownloadOptions = (e) => {
+    e.stopPropagation();
+    setShowDownloadOptions(true);
+  };
+
+  const closeDownloadOptions = () => {
+    setShowDownloadOptions(false);
+  };
+
+  const handleDownload = (language) => {
+    const cvUrl = `Currículum_${language}.pdf`;
+    window.open(cvUrl, '_blank');
+    closeDownloadOptions();
+  };
+
+  const downloadOptionsRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (downloadOptionsRef.current && !downloadOptionsRef.current.contains(event.target)) {
+        closeDownloadOptions();
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [downloadOptionsRef]);
+  /*--------------------------------------------*/
+
 
   return (
     <div>
@@ -32,14 +70,19 @@ export const Header = (props) => {
       </HeaderContainer>
       <HeaderNav>
         <UnorderedList>
-          <LiElement onClick={handleClick} className={selectedOption === 'About me' ? 'active' : ''}>About me</LiElement>
-          <LiElement onClick={handleClick} className={selectedOption === 'Web Development' ? 'active' : ''}>Web Development</LiElement>
-          <LiElement onClick={handleClick} className={selectedOption === 'Android Development' ? 'active' : ''}>Android/Kotlin Development</LiElement>
+          <LiElement onClick={handleSectionClick} className={selectedSectionOption === 'About me' ? 'active' : ''}>About me</LiElement>
+          <LiElement onClick={handleSectionClick} className={selectedSectionOption === 'Web Development' ? 'active' : ''}>Web Development</LiElement>
+          <LiElement onClick={handleSectionClick} className={selectedSectionOption === 'Android Development' ? 'active' : ''}>Android/Kotlin Development</LiElement>
         </UnorderedList>
       </HeaderNav>
-      <a href={cvUrl} download="Currículum.pdf">
+      <a href="#!" onClick={(e) => openDownloadOptions(e)}>
         <DownloadCVButton>Download CV!</DownloadCVButton>
       </a>
+      {showDownloadOptions && (
+        <div ref={downloadOptionsRef}>
+          <DownloadOptionsBox onDownload={handleDownload} />
+        </div>
+      )}
     </div>
   )
 }

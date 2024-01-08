@@ -12,9 +12,11 @@ export const portfolioTheme = {
       purple: 'var(--clr-purple)',
       darkerGreen: 'var(--clr-darkerGreen)',
       softGoldBackground: 'var(--clr-softGoldBackground)',
+      goldBackground: 'var(--clr-goldBackground)',
     },
     sizes: {
       vw07: '0.7vw',
+      vw08: '0.8vw',
       vw1: '1vw',
       vw13: '1.3vw',
       vw15: '1.5vw',

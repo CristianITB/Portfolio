@@ -62,20 +62,21 @@ export const HeaderNav = styled.nav`
 `
 
 export const DownloadCVButton = styled.button`
-  ${withTheme('font-size', 'sizes.vw07')};
+  ${withTheme('font-size', 'sizes.vw08')};
+  ${withTheme('font-weight', 'fontWeight.bold')};
   ${withTheme('color', 'colors.black')}
-  background: linear-gradient(45deg, #BFA181, #37b0ac);
+  ${withTheme('background-color', 'colors.goldBackground')}
+  border: 2px solid #BFA181;
   position: absolute;
   top: 3%;
   right: 2%;
   padding: 12px 18px;
-  border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 
   &:hover {
-    background: linear-gradient(45deg, #9f8769, #2f8f89);
+    background: rgba(191, 161, 129, 0.7);
     transform: scale(1.1);
   }
 `

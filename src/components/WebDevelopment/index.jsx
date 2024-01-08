@@ -29,7 +29,7 @@ export const WebDevelopment = () => {
               title={"Genshin Impact Wiki"} 
               gitLink={"https://github.com/CristianITB/TravelGenshin"} 
               websiteLink={"https://travel-genshin.vercel.app/"} 
-              imageSrc={process.env.PUBLIC_URL + '/genshin_wiki.png'} 
+              imageSrc={process.env.PUBLIC_URL + '/genshinWiki.png'} 
               description={"React application for Genshin Impact enthusiast, serving as an intuitive wiki for players. Explore characters, weapons, and more in this immersive gaming experience!"} 
               tags={["React", "Styled Components", "JavaScript"]} />
           </ProjectWrapper>
@@ -47,7 +47,7 @@ export const WebDevelopment = () => {
               title={"Secret Code Game"} 
               gitLink={"https://github.com/CristianITB/SecretCode_JavaScript"} 
               websiteLink={"https://cristianitb.github.io/SecretCode_JavaScript/"} 
-              imageSrc={process.env.PUBLIC_URL + '/secret_code.png'} 
+              imageSrc={process.env.PUBLIC_URL + '/secretCode.png'} 
               description={"Very simple 'Secret Code' game done in my early days as a software developer, exploring the fundamentals of coding and logic! Will you guess the code?"} 
               tags={["HTML", "CSS", "JavaScript"]} />
           </ProjectWrapper>
@@ -56,7 +56,7 @@ export const WebDevelopment = () => {
               title={"CSS tryouts"} 
               gitLink={"https://github.com/CristianITB/PruebasCSS"} 
               websiteLink={"https://cristianitb.github.io/PruebasCSS/"} 
-              imageSrc={process.env.PUBLIC_URL + '/css_tryouts.png'} 
+              imageSrc={process.env.PUBLIC_URL + '/cssTryouts.png'} 
               description={"Exploring the creative possibilities of CSS beyond conventional web page styling through experimentation and testing."} 
               tags={["HTML", "CSS"]} />
           </ProjectWrapper>

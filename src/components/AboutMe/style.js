@@ -42,7 +42,7 @@ export const TechStackTitle = styled.p`
 `
 
 export const TechStack = styled.div`
-${withTheme('background-color', 'colors.softGoldBackground')}
+  ${withTheme('background-color', 'colors.softGoldBackground')}
   border: 2px solid #BFA181;
   display: flex;
   align-items: center;
